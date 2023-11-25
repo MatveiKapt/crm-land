@@ -611,6 +611,14 @@ address {
     font-size: 16px;
   }
 
+  .footer-nav__block-item:hover {
+    opacity: 0.8;
+  }
+
+  .footer-nav__block-item:active {
+    opacity: 0.6;
+  }
+
   .footer-nav__block-list--grid {
     grid-template-columns: max-content max-content;
     column-gap: 52px;
